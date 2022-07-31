@@ -5,22 +5,20 @@
                 FL 33160
           Tel: 37529-234-6375
 
-Cashier: Meryl Streep    DATE: 2022-06-21
-                         TIME: 10:54:05
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 18:26:51
 -----------------------------------------
 ID | DESCRIPTION | PRICE | NUMBER | TOTAL
 -----------------------------------------
-2    Popcorn       2,10    8        16,80 
-                          discount -1,68
-7    Chocolate     3,10    1        3,10  
-                          discount -0,16
-14   Eclair        1,90    1        1,90  
-                          discount -0,10
-20   Coke          2,50    3        7,50  
-                          discount -0,38
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
 -----------------------------------------
 -----------------------------------------
-Discount                            -2,30
+Discount                            -0,66
                                   -------
-TO PAY                              27,00
+TO PAY                              12,50
              ---THANK YOU!---

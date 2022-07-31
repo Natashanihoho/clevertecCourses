@@ -65,11 +65,11 @@ Discount                            -2,30
 TO PAY                              27,00
              ---THANK YOU!---
 
-[2022-06-21 10:53:08,433] INFO [ru.clevertec.gordievich.aspect.LoggerAspect: 20] interpret args=[["2-8","7-1","14-1","20-3","card5"]]
-[2022-06-21 10:53:08,451] INFO [ru.clevertec.gordievich.aspect.LoggerAspect: 22] interpret result=
+[2022-06-21 10:53:08,433] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["2-8","7-1","14-1","20-3","card5"]]
+[2022-06-21 10:53:08,451] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
 "              CASH RECEIPT\n\n         SUPERMARKET \"LOLLIPOP\"\n  17100 Collins Ave Sunny Isles Beach,\n                FL 33160\n          Tel: 37529-234-6375\n\nCashier: Meryl Streep    DATE: 2022-06-21\n                         TIME: 10:53:08\n-----------------------------------------\nID | DESCRIPTION | PRICE | NUMBER | TOTAL\n-----------------------------------------\n2    Popcorn       2,10    8        16,80 \n                          discount -1,68\n7    Chocolate     3,10    1        3,10  \n                          discount -0,16\n14   Eclair        1,90    1        1,90  \n                          discount -0,10\n20   Coke          2,50    3        7,50  \n                          discount -0,38\n-----------------------------------------\n-----------------------------------------\nDiscount                            -2,30\n                                  -------\nTO PAY                              27,00\n             ---THANK YOU!---\n"
-[2022-06-21 10:54:05,231] INFO [ru.clevertec.gordievich.aspect.LoggerAspect: 20] interpret args=[["2-8","7-1","14-1","20-3","card5"]]
-[2022-06-21 10:54:05,247] INFO [ru.clevertec.gordievich.aspect.LoggerAspect: 22] interpret result=
+[2022-06-21 10:54:05,231] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["2-8","7-1","14-1","20-3","card5"]]
+[2022-06-21 10:54:05,247] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
               CASH RECEIPT
 
          SUPERMARKET "LOLLIPOP"
@@ -95,5 +95,328 @@ ID | DESCRIPTION | PRICE | NUMBER | TOTAL
 Discount                            -2,30
                                   -------
 TO PAY                              27,00
+             ---THANK YOU!---
+
+[2022-07-21 15:52:03,719] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["6-8","10-2","18-4"]]
+[2022-07-21 15:52:03,750] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Liam Neeson     DATE: 2022-07-21
+                         TIME: 15:52:03
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+6    Cake          18,65   8        149,20
+10   Marshmallow   1,48    2        2,96  
+18   Lemonade      1,62    4        6,48  
+-----------------------------------------
+-----------------------------------------
+Discount                             0,00
+                                  -------
+TO PAY                             158,64
+             ---THANK YOU!---
+
+[2022-07-21 15:52:03,797] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-2","dfsf"]]
+[2022-07-21 15:52:03,797] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["2.8","9-----"]]
+[2022-07-21 15:52:03,813] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["products"]]
+[2022-07-21 15:53:50,178] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["6-8","10-2","18-4"]]
+[2022-07-21 15:53:50,193] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-21
+                         TIME: 15:53:50
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+6    Cake          18,65   8        149,20
+10   Marshmallow   1,48    2        2,96  
+18   Lemonade      1,62    4        6,48  
+-----------------------------------------
+-----------------------------------------
+Discount                             0,00
+                                  -------
+TO PAY                             158,64
+             ---THANK YOU!---
+
+[2022-07-21 15:53:50,242] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-2","dfsf"]]
+[2022-07-21 15:53:50,249] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["2.8","9-----"]]
+[2022-07-21 15:53:50,252] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["products"]]
+[2022-07-21 15:56:05,471] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["6-8","10-2","18-4"]]
+[2022-07-21 15:56:05,487] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Liam Neeson     DATE: 2022-07-21
+                         TIME: 15:56:05
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+6    Cake          18,65   8        149,20
+10   Marshmallow   1,48    2        2,96  
+18   Lemonade      1,62    4        6,48  
+-----------------------------------------
+-----------------------------------------
+Discount                             0,00
+                                  -------
+TO PAY                             158,64
+             ---THANK YOU!---
+
+[2022-07-21 15:56:05,549] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-2","dfsf"]]
+[2022-07-21 15:56:05,549] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["2.8","9-----"]]
+[2022-07-21 15:56:05,549] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["products"]]
+[2022-07-25 11:14:59,204] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 01:02:34,542] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["5-3","card4"]]
+[2022-07-26 01:02:34,755] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 01:02:34
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+5    Biscuit       1,48    3        4,26  
+                          discount -0,18
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,18
+                                  -------
+TO PAY                               4,26
+             ---THANK YOU!---
+
+[2022-07-26 14:41:14,904] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 14:41:14,920] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 14:41:15,372] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Kate Winslet    DATE: 2022-07-26
+                         TIME: 14:41:14
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 14:41:15,372] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Kate Winslet    DATE: 2022-07-26
+                         TIME: 14:41:14
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 14:45:42,871] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 14:45:42,871] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 14:45:43,120] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Liam Neeson     DATE: 2022-07-26
+                         TIME: 14:45:42
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 14:45:43,120] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Liam Neeson     DATE: 2022-07-26
+                         TIME: 14:45:42
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 18:08:46,322] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:08:46,322] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:09:10,923] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:09:10,923] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:09:11,157] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 18:09:10
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 18:09:11,157] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 18:09:10
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 18:26:51,012] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:26:51,013] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 20] interpret args=[["1-8","2-1","3-1","card5"]]
+[2022-07-26 18:26:51,287] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 18:26:51
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
+             ---THANK YOU!---
+
+[2022-07-26 18:26:51,287] INFO [ru.clevertec.gordievich.infrastructure.aspect.LoggerAspect: 22] interpret result=
+              CASH RECEIPT
+
+         SUPERMARKET "LOLLIPOP"
+  17100 Collins Ave Sunny Isles Beach,
+                FL 33160
+          Tel: 37529-234-6375
+
+Cashier: Will Smith      DATE: 2022-07-26
+                         TIME: 18:26:51
+-----------------------------------------
+ID | DESCRIPTION | PRICE | NUMBER | TOTAL
+-----------------------------------------
+1    Lollipop      1,07    8        8,13  
+                          discount -0,43
+2    Popcorn       2,10    1        2,00  
+                          discount -0,11
+3    Gingerbread   2,50    1        2,38  
+                          discount -0,13
+-----------------------------------------
+-----------------------------------------
+Discount                            -0,66
+                                  -------
+TO PAY                              12,50
              ---THANK YOU!---
 

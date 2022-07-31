@@ -1,4 +1,0 @@
-1;Lollipop;1.07;20;false
-110;Lollipop;1.07;20;false
-2;Popcorn;2.10;20;true
-five;Biscuit;1.4811;20;true
